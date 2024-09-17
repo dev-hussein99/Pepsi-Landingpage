@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.home{
+  height: 100vh;
+  background-color: #0162be;
+  color: #fff;
+}
+#Navlogo{
+  width: 50px;
+}
+
+#container{
+  margin: 0 7rem;
+  height: 100%;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul a {
+  color: #fff;
+  padding: 20px;
+}
+
+.home .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+}
+.content img {
+  width: 220px;
+  animation: animation1 1s ease-out;
+}
+
+.Content-text h2{
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.Content-text h2 span {
+  font-size: 70px;
+}
+
+.Content-text p {
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  width: 70%;
+}
+.btn {
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 30px;
+  color: black;
+}
+
+.btn:hover{
+  background: transparent;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.icons {
+  margin-left: 3rem;
+  display: grid;
+  animation: animation1 1s ease-out;
+
+
+}
+
+.icons i {
+  color: #fff;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.pepsi-types{
+  width: 100px;
+  display: block;
+  margin: auto;
+  animation: animation2 1s ease-out;
+}
+
+@keyframes animation1 {
+  0%{
+    transform: translateX(500px);
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes animation2 {
+  0%{
+    transform: translateY(200px);
+  }
+
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
